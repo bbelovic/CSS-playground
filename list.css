@@ -19,4 +19,8 @@
 .resource-item {
     display: flex;
     flex-direction: column;
+    margin-top: 2rem;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
