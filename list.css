@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px black solid;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.resource-list {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.resource-item {
+    display: flex;
+    flex-direction: column;
+}
