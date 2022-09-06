@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
 }
 
 .container {
@@ -38,7 +37,6 @@ p {
     flex-wrap: wrap;
     flex-direction: row;
     border-radius: 0.25rem;
-    border: 1px coral solid;
 }
 
 .resource-tag {
@@ -47,4 +45,22 @@ p {
     margin: 0.25rem;
     border-radius: 0.25rem;
     padding: 0 0.2rem;
+}
+
+.control-buttons {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.control-button {
+    padding: 0.3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.25rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 0.35rem;
+    border: none;
+    background-color: coral;
 }
