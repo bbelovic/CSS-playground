@@ -10,6 +10,19 @@
     margin: 0 auto;
 }
 
+.menu {
+    list-style-type: none;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+
+
 .resource-list {
     margin-top: 0.5rem;
     display: flex;
