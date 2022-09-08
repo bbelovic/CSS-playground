@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px black solid;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page-title {
+    margin-left: 0.5rem;
 }
 
 .container {
@@ -12,12 +21,14 @@
 
 .menu {
     list-style-type: none;
+    line-height: 2.5;
     margin: 0.5rem;
     display: flex;
     flex-direction: row;
 }
 
 li {
+    border: 1px coral solid;
     margin-right: 1rem;
     text-transform: uppercase;
 }
